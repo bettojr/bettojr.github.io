@@ -1,0 +1,13 @@
+/*Roda pé*/
+footer {
+  width: 100%;
+  height: 200px;
+  display: flex;
+  justify-items: center;
+  justify-content: center;
+}
+.icones-social {
+  width: 50%;
+  display: block;
+  margin: auto;
+}

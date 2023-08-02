@@ -1,0 +1,50 @@
+.header {
+  height: 100px;
+  display: flex;
+  justify-content: space-between;
+  margin: 20px 0px;
+  flex-wrap: wrap;
+}
+.logo img {
+  width: 100px;
+  padding-right: 10px;
+}
+.logo h1 {
+  color: #fff;
+}
+.logo {
+  display: flex;
+  width: 350px;
+}
+nav {
+  display: flex;
+  align-items:center ;
+}
+.header-menu {
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+.linkmenu {
+  text-decoration: none;
+  color: #ffffff;
+  text-transform: uppercase;
+  font-weight: bold;
+  border: 2px solid #ffffff00;
+  transition: 1s;
+}
+.linkmenu:hover {
+  border-bottom: 1px solid #8b96ff;
+}
+
+/*Versão para celular*/
+@media (max-width: 800px) {
+  .logo {
+    display: flex;
+    width: 350px;
+    padding-bottom: 20px;
+  }
+  .pesquisa {
+    padding: 20px 0;
+  }
+}
